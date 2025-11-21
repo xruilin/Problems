@@ -1,6 +1,6 @@
 #Daily Problems
 
-# ML Research Engineering Handbook & Environment Setup
+# Engineering Handbook & Environment Setup
 
 This repository serves as a collection of best practices, environment configuration scripts, and troubleshooting notes for Deep Learning and Reinforcement Learning research. 
 
