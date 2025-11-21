@@ -18,13 +18,3 @@ It is designed to streamline the process of setting up complex environments invo
 
 ---
 
-## Conda & Environment Management
-
-### Avoid Path Hardcoding
-When moving environments between storage mounts (e.g., `/mnt/usercache` to `/netcache`), hardcoded shebangs in `conda` executables often break.
-
-**Recommended Activation Method:**
-Instead of `source ./bin/activate`, use the initializing script to properly load paths:
-```bash
-source /path/to/anaconda3/etc/profile.d/conda.sh
-conda activate <env_name>
