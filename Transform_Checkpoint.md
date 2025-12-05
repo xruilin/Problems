@@ -30,8 +30,8 @@ except ImportError:
     print("Warning: torch.distributed._tensor.DTensor not found. Type checking might rely on string matching.")
 
 # --- 配置 ---
-INPUT_DIR = "/mnt/usercache/xuruilin/verl-agent/checkpoints/verl_agent_grammar/grpo_qwen3_4b_grammar/global_step_186/actor"
-OUTPUT_DIR = "/mnt/usercache/xuruilin/verl-agent/checkpoints/verl_agent_grammar/grpo_qwen3_4b_grammar/final/actor_fixed"
+INPUT_DIR = "../global_step_186/actor"
+OUTPUT_DIR = "../final/actor_fixed"
 
 def unwrap_dtensor(t):
     """
